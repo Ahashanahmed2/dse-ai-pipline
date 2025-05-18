@@ -1,0 +1,13 @@
+pymongo
+pandas
+numpy>=1.21
+scikit-learn
+xgboost
+shap
+matplotlib
+gym>=0.19.0
+tensorforce
+fpdf
+python-dotenv
+ta==0.10.1
+joblib

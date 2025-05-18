@@ -1,0 +1,30 @@
+name: AI Signal Daily
+
+on:
+  schedule:
+    - cron: "0 15 * * *"  # প্রতিদিন ১০ AM (BDT) সময়
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run AI Pipeline
+        run: |
+          python scripts/fetch_data.py
+          python scripts/train_model.py
+          python scripts/predict_signal.py
+          python scripts/generate_pdf.py
+          python scripts/send_email.py

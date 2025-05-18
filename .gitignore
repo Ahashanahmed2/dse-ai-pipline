@@ -1,0 +1,52 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.db
+*.sqlite3
+
+# ML Models & Data
+models/
+data/raw_data.csv
+data/*.csv
+*.pkl
+*.joblib
+
+# MongoDB & Configs
+.env
+.env.local
+.env.development
+.env.production
+
+# PDF Reports
+output/
+reports/output/
+
+# Logs & Cache
+*.log
+*.tmp
+*.swp
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Gitignored for security
+secrets.py
+config.py
+
+# Node.js / Docker (যদি থাকে)
+node_modules/
+dist/
+build/
+docker-compose.override.yml
+.env*
+
+# Backup files
+*.bak
+*.orig
+*.save

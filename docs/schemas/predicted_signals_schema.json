@@ -1,0 +1,16 @@
+{
+  "_id": "ObjectId('...')",
+  "symbol": "RECKITTBEN",
+  "buy_price": 3404.5,
+  "sell_price": 3744.95,
+  "hold_duration": 3,
+  "estimated_profit": 10.0,
+  "confidence": 97.0,
+  "trend": "Downtrend",
+  "strategy": "AI-Driven",
+  "risk_reward_ratio": 2.98,
+  "expiry_date": "2025-05-15",
+  "stop_loss": 3302.36,
+  "validity_duration": "3 days",
+  "past_accuracy": 75.98
+}
