@@ -1,6 +1,6 @@
 pymongo
 pandas
-numpy>=1.21
+numpy==1.26.0 --no-cache-dir
 scikit-learn
 xgboost
 shap
