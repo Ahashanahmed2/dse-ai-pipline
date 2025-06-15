@@ -1,9 +1,6 @@
 name: AI Signal Daily
 
-on:
-  schedule:
-    - cron: "* * * * *"  # প্রতিদিন ১০ AM (BDT) সময়
-  workflow_dispatch:
+ 
 
 jobs:
   run-pipeline:
