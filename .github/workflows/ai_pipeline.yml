@@ -2,7 +2,7 @@ name: AI Signal Daily
 
 on:
   schedule:
-    - cron: "0 15 * * *"  # প্রতিদিন ১০ AM (BDT) সময়
+    - cron: "* * * * *"  # প্রতিদিন ১০ AM (BDT) সময়
   workflow_dispatch:
 
 jobs:
